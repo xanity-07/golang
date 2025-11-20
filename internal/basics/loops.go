@@ -39,7 +39,6 @@ func Loops() {
 	// }
 
 	//* For Loop Exercise + Nested For Loops
-
 	rows := 5
 	for i := 1; i <= rows; i++ {
 		//? Spaces
