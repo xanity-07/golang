@@ -1,10 +1,6 @@
 package main
 
-import (
-	"github.com/xanity-07/golang/internal/functions"
-)
-
-// "github.com/xanity-07/golang/internal/basics"
+import "github.com/xanity-07/golang/internal/intermediate"
 
 func main() {
 	// basics.ImportsExample()
@@ -15,5 +11,6 @@ func main() {
 	// basics.RangeKeyword()
 	// functions.PrintAll()
 	// functions.IntroToPanic()
-	functions.IntroToRecover()
+	// functions.IntroToRecover()
+	intermediate.IntroClosures()
 }
