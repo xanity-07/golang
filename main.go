@@ -12,5 +12,7 @@ func main() {
 	// functions.PrintAll()
 	// functions.IntroToPanic()
 	// functions.IntroToRecover()
-	intermediate.IntroClosures()
+	// intermediate.IntroClosures()
+	// intermediate.IntroPointers()
+	intermediate.IntroStringAndRunes()
 }
