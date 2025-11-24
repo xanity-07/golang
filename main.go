@@ -14,5 +14,7 @@ func main() {
 	// functions.IntroToRecover()
 	// intermediate.IntroClosures()
 	// intermediate.IntroPointers()
-	intermediate.IntroStringAndRunes()
+	// intermediate.IntroStringAndRunes()
+	// intermediate.IntroStructs()
+	intermediate.IntroMethods()
 }
