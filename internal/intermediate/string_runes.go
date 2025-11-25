@@ -1,17 +1,17 @@
 package intermediate
 
-import "fmt"
+// import "fmt"
 
-func IntroStringAndRunes() {
-	message := "Hello, Go"
-	rawMessage := `Hello from Go!`
+// func IntroStringAndRunes() {
+// 	message := "Hello, Go"
+// 	rawMessage := `Hello from Go!`
 
-	fmt.Println(message)
-	fmt.Println(rawMessage)
+// 	fmt.Println(message)
+// 	fmt.Println(rawMessage)
 
-	fmt.Println("The first character of message: ", message[0]) //* ASCII return value
+// 	fmt.Println("The first character of message: ", message[0]) //* ASCII return value
 
-	greeting := "Hello"
-	name := "Alice"
-	fmt.Println(greeting + " " + name)
-}
+// 	greeting := "Hello"
+// 	name := "Alice"
+// 	fmt.Println(greeting + " " + name)
+// }

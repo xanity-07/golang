@@ -16,5 +16,6 @@ func main() {
 	// intermediate.IntroPointers()
 	// intermediate.IntroStringAndRunes()
 	// intermediate.IntroStructs()
-	intermediate.IntroMethods()
+	// intermediate.IntroMethods()
+	intermediate.IntroInterfaces()
 }
