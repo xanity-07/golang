@@ -17,5 +17,8 @@ func main() {
 	// intermediate.IntroStringAndRunes()
 	// intermediate.IntroStructs()
 	// intermediate.IntroMethods()
-	intermediate.IntroInterfaces()
+	// intermediate.IntroInterfaces()
+	// intermediate.IntroEmbeding()
+	// intermediate.IntroGenerics()
+	intermediate.IntroErros()
 }
