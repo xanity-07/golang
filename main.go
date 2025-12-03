@@ -20,5 +20,7 @@ func main() {
 	// intermediate.IntroInterfaces()
 	// intermediate.IntroEmbeding()
 	// intermediate.IntroGenerics()
-	intermediate.IntroErros()
+	// intermediate.IntroErros()
+	// intermediate.IntroTime()
+	intermediate.IntroUrl()
 }
