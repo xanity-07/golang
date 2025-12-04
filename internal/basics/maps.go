@@ -1,4 +1,4 @@
-package maps1
+package basics
 
 import "fmt"
 

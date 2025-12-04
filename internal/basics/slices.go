@@ -1,4 +1,4 @@
-package slice
+package basics
 
 func IntroToSLice() {
 	// var numbers []int

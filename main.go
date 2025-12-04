@@ -22,5 +22,6 @@ func main() {
 	// intermediate.IntroGenerics()
 	// intermediate.IntroErros()
 	// intermediate.IntroTime()
-	intermediate.IntroUrl()
+	// intermediate.IntroUrl()
+	intermediate.IntroBufio()
 }
