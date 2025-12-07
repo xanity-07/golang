@@ -27,39 +27,37 @@ func IntroBufio() {
 	// }
 	// fmt.Println(line)
 
+	//* Writing byte slice
 	writer := bufio.NewWriter(os.Stdout)
-
-	//* Writinf byte slice
-	data := []byte("Hello, bufio package! \n")
+	data := []byte("Hello writing to console.!\n")
 
 	n, err := writer.Write(data)
 	if err != nil {
-		fmt.Println("Error writing to data", err)
+		fmt.Println("Error writing:", err)
 		return
 	}
-	fmt.Printf("Wrote %d bytes.\n", n)
+	fmt.Printf("Wrote %d bytes\n", n)
 
-	//* Have to flush the buffer.
-	//? It does not automatically flush the writer.
-	//* Flush the buffer to ensure all data is written to os.Stdout
+	//* Flush the buffers to ensure all the data is written to os.Stdout
 	err = writer.Flush()
 	if err != nil {
-		fmt.Println("Error flushing writer:", err)
+		fmt.Println("Error flushing.")
+		return
 	}
 
 	//* Writing string
-	str := "This is some random string\n"
+	str := "This is a string.\n"
 	s, err := writer.WriteString(str)
 	if err != nil {
-		fmt.Println("Error writing string:", err)
+		fmt.Println("Error writing string.")
 		return
 	}
-	fmt.Printf("Wrote %d bytes.\n", s)
+	fmt.Printf("Wrote %d bytes\n", s)
 
-	//* Flush buffer
+	//* Flush the buffers
 	err = writer.Flush()
 	if err != nil {
-		fmt.Println("Error flushing writer on line 57:", err)
+		fmt.Println("Error flushing")
 		return
 	}
 }

@@ -23,5 +23,7 @@ func main() {
 	// intermediate.IntroErros()
 	// intermediate.IntroTime()
 	// intermediate.IntroUrl()
-	intermediate.IntroBufio()
+	// intermediate.IntroBufio()
+	// intermediate.IntroEncoding()
+	intermediate.IntroHashing()
 }
