@@ -25,5 +25,7 @@ func main() {
 	// intermediate.IntroUrl()
 	// intermediate.IntroBufio()
 	// intermediate.IntroEncoding()
-	intermediate.IntroHashing()
+	// intermediate.IntroHashing()
+	// intermediate.IntroWritingFiles()
+	intermediate.IntroReadingFiles()
 }
