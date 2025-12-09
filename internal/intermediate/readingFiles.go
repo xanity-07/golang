@@ -1,6 +1,7 @@
 package intermediate
 
 import (
+	"bufio"
 	"fmt"
 	"os"
 )
@@ -18,11 +19,23 @@ func IntroReadingFiles() {
 	}()
 
 	//* Read the content of the file
-	data := make([]byte, 1024)
-	_, err = file.Read(data)
-	if err != nil {
-		fmt.Println("Error Reading file:", err)
-		return
+	// data := make([]byte, 1024)
+	// _, err = file.Read(data)
+	// if err != nil {
+	// 	fmt.Println("Error Reading file:", err)
+	// 	return
+	// }
+	// fmt.Println(string(data))
+
+	//* Another way of reading using bufio
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+		line := scanner.Text()
+		fmt.Println(line)
 	}
-	fmt.Println(string(data))
+
+	err = scanner.Err()
+	if err != nil {
+		fmt.Println("Error scanning file.")
+	}
 }

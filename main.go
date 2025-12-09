@@ -27,5 +27,6 @@ func main() {
 	// intermediate.IntroEncoding()
 	// intermediate.IntroHashing()
 	// intermediate.IntroWritingFiles()
-	intermediate.IntroReadingFiles()
+	// intermediate.IntroReadingFiles()
+	intermediate.IntroLineFilter()
 }
