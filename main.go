@@ -29,5 +29,6 @@ func main() {
 	// intermediate.IntroWritingFiles()
 	// intermediate.IntroReadingFiles()
 	// intermediate.IntroLineFilter()
-	intermediate.IntroLogging()
+	// intermediate.IntroLogging()
+	intermediate.IntroJson()
 }
