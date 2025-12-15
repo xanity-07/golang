@@ -58,6 +58,7 @@ func IntroJson() {
 	// fmt.Println(string(jsonData1))
 
 	//* Unmarshalling JSON
+
 	jsonData := `{"name": "xan1ty", "age": 25, "emp_id": "0009", "address": {"City": "Paterson", "State":"NJ"}}`
 
 	var employee Employee
@@ -84,7 +85,6 @@ func IntroJson() {
 	fmt.Println(string(jsonList))
 
 	// * Handling unknow JSON structs / data
-
 	jsonD := `{"name": "John", "age": 30, "address": {"city": "Paterson", "State": "NJ"}}`
 	var data map[string]interface{}
 	err = json.Unmarshal([]byte(jsonD), &data)
