@@ -31,5 +31,6 @@ func main() {
 	// intermediate.IntroLineFilter()
 	// intermediate.IntroLogging()
 	// intermediate.IntroJson()
-	intermediate.IntroStructTags()
+	// intermediate.IntroStructTags()
+	intermediate.IntroXML()
 }
