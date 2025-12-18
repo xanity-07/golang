@@ -86,7 +86,7 @@ func IntroJson() {
 
 	// * Handling unknow JSON structs / data
 	jsonD := `{"name": "John", "age": 30, "address": {"city": "Paterson", "State": "NJ"}}`
-	var data map[string]interface{}
+	var data map[string]any
 	err = json.Unmarshal([]byte(jsonD), &data)
 	if err != nil {
 		fmt.Println("Error unmarshalling JSON:", err)

@@ -1,6 +1,8 @@
 package main
 
-import "github.com/xanity-07/golang/internal/intermediate"
+import "github.com/xanity-07/golang/internal/advanced"
+
+// import "github.com/xanity-07/golang/internal/intermediate"
 
 func main() {
 	// basics.ImportsExample()
@@ -12,6 +14,8 @@ func main() {
 	// functions.PrintAll()
 	// functions.IntroToPanic()
 	// functions.IntroToRecover()
+
+	//* Intermediate concepts
 	// intermediate.IntroClosures()
 	// intermediate.IntroPointers()
 	// intermediate.IntroStringAndRunes()
@@ -32,5 +36,9 @@ func main() {
 	// intermediate.IntroLogging()
 	// intermediate.IntroJson()
 	// intermediate.IntroStructTags()
-	intermediate.IntroXML()
+	// intermediate.IntroXML()
+	// intermediate.IntroIOPackage()
+
+	//* Advanced concepts
+	advanced.IntroGoroutines()
 }
