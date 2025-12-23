@@ -16,7 +16,7 @@ func IntroToMaps() {
 	// fmt.Println(z)
 
 	//* Declaring Map Literal
-	// x = map[string]string{
+	// var x = map[string]string{
 	// 	"name": "Xanity",
 	// }
 

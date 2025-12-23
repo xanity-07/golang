@@ -1,6 +1,8 @@
 package main
 
-import "github.com/xanity-07/golang/internal/advanced"
+import (
+	"github.com/xanity-07/golang/internal/api"
+)
 
 // import "github.com/xanity-07/golang/internal/intermediate"
 
@@ -40,5 +42,10 @@ func main() {
 	// intermediate.IntroIOPackage()
 
 	//* Advanced concepts
-	advanced.IntroGoroutines()
+	// advanced.IntroGoroutines()
+	// advanced.IntroChannels()
+	// advanced.IntroChannelBuffered()
+
+	//* API lectures
+	api.IntroHTTPClient()
 }
